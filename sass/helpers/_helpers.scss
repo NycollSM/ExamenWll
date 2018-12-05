@@ -1,0 +1,7 @@
+@import 'helpers/variables';
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
