@@ -6,17 +6,22 @@ float: left;
 }
 .header-content{
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 h1 {
   font-size: 46px;
   margin-bottom:2%;
 }
+.p-img p{
+  width: 70%;
+  display: block;
+}
+.first-icon , .pink-icon{
+  display: none;
+} 
 .header-content img {
-  float: right;  
-  text-align: center;
+  float: right; 
+  display: inline-block;
 }
-.header-content p{
-  width: 40%;
-  margin: 0;
-}
+
 

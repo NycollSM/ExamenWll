@@ -1,5 +1,4 @@
 .color-content{
-  width: 100%;
   background: white;
 }
 .content-img{
@@ -9,16 +8,14 @@
 }
 .content-img > img{
   margin: 0;
+  width: 100%;
   display:block;
   float: left;
   text-align: center;
 }
-.last{
-  position: relative;
-}
-.first-icon{
-  position: absolute;
+.first-icon {
+  display: none;
 }
 .pink-icon{
-  position: relative;
+  display: none;
 }
